@@ -1,0 +1,38 @@
+@use "../Article/" as a;
+@use "../boilerplate" as b;
+
+.banner2 {
+  height: 288px;
+  width: 1275px;
+  margin-top: 60px;
+  background: #19b885;
+  color: white;
+  margin-inline: 82px;
+  text-align: center;
+
+  #{&}__heading {
+    padding: 60px 205px 32px 227px;
+    font-size: 28px;
+  }
+
+  #{&}__inputs {
+    display: flex;
+    height: 56px;
+    width: 505px;
+    margin-inline: 385px;
+
+    margin-bottom: 12px;
+    &_input {
+      width: 310px;
+      border: none;
+    }
+    &_button {
+      height: 56px;
+      width: 195px;
+
+      background: black;
+      color: white;
+      border: none;
+    }
+  }
+}

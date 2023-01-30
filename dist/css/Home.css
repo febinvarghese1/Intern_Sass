@@ -1,0 +1,128 @@
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  font-size: 14px;
+  font-weight: 400;
+  margin-inline: 84px 83px;
+  height: 2.5rem;
+}
+.header .header__left img {
+  height: 35px;
+  width: 197px;
+  margin-top: 1.188em;
+}
+.header .header__right {
+  height: 40px;
+  width: 1050px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1.188em;
+}
+.header .header__right_list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.header .header__right_list_items {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  cursor: pointer;
+  margin-left: 29px;
+}
+.header .header__right_list_items i {
+  margin-left: 8px;
+}
+.header .header__right_about {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 344px;
+  margin-left: 236px;
+}
+.header .header__right_about section {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 90px;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header__right_about p {
+  margin-left: 24px;
+  width: 120px;
+}
+.header .header__right_button {
+  background: #30bf91;
+  margin-left: 16px;
+  color: white;
+  border: none;
+  height: 38px;
+  width: 87px;
+  border-radius: 5px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 356px;
+  width: 1274px;
+  margin-top: 130px;
+  margin-inline: 83px;
+  background-color: #fff;
+}
+.main .main__content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.main .main__content p {
+  text-align: center;
+  width: 437px;
+  margin-right: 202px;
+  font-size: 12px;
+  font-weight: 800;
+  margin-top: 30px;
+  word-spacing: 3px;
+}
+.main .main__content_heading {
+  font-size: 56px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 70px;
+  margin-right: 22px;
+  padding: 10px;
+}
+.main .main__content_detail {
+  font-size: 18px;
+  margin-right: 166px;
+  margin-top: 32px;
+}
+.main .main__content_form {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.main .main__content_form_input {
+  height: 50px;
+  width: 268px;
+  border-radius: 5px;
+  border: 0.5px solid grey;
+  font-size: 1rem;
+  text-align: center;
+}
+.main .main__content_form_button {
+  height: 50px;
+  width: 173px;
+  border-radius: 5px;
+  padding: 8px 20px 12px 20px;
+  color: white;
+  background-color: #19B885;
+  border: none;
+}/*# sourceMappingURL=Home.css.map */

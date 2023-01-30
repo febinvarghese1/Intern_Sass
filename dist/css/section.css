@@ -1,0 +1,120 @@
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  font-size: 14px;
+  font-weight: 400;
+  margin-inline: 84px 83px;
+  height: 2.5rem;
+}
+.header .header__left img {
+  height: 35px;
+  width: 197px;
+  margin-top: 1.188em;
+}
+.header .header__right {
+  height: 40px;
+  width: 1050px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1.188em;
+}
+.header .header__right_list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.header .header__right_list_items {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  cursor: pointer;
+  margin-left: 29px;
+}
+.header .header__right_list_items i {
+  margin-left: 8px;
+}
+.header .header__right_about {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 344px;
+  margin-left: 236px;
+}
+.header .header__right_about section {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 90px;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header__right_about p {
+  margin-left: 24px;
+  width: 120px;
+}
+.header .header__right_button {
+  background: #30bf91;
+  margin-left: 16px;
+  color: white;
+  border: none;
+  height: 38px;
+  width: 87px;
+  border-radius: 5px;
+}
+
+.article {
+  margin: auto 165px;
+  height: 252px;
+  width: 1109px;
+  text-align: center;
+  margin-top: 170px;
+}
+.article .article__heading {
+  font-size: 32px;
+  font-weight: bold;
+}
+.article .article__content {
+  margin-top: 32px;
+}
+.article .article__btn {
+  margin-top: 28px;
+}
+.article .article__btn_button {
+  border-bottom: 1px solid black;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 626px 502px;
+  margin-top: 500px;
+  background-color: #F5FDFF;
+}
+.section .section__icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.section .section__icons_contain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-inline: 60px;
+  width: 100%;
+}
+.section .section__icons_contain span {
+  margin-top: 10px;
+}
+.section .section__image {
+  margin-inline: 166px 129px;
+}
+
+.article--section {
+  margin-top: 70px;
+  margin-inline: 236px;
+  text-align: center;
+  height: 119px;
+  width: 967px;
+}/*# sourceMappingURL=section.css.map */

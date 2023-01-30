@@ -1,0 +1,77 @@
+@use "../Header" as h;
+
+@use "../breakpoints" as breakpoints;
+
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 356px;
+width: 1274px;
+
+  margin-top: 130px;
+  margin-inline: 83px;
+  background-color: #fff;
+
+
+  
+
+
+
+
+  #{&}__content {
+    @include h.flexContent(column);
+    & p {
+      text-align: center;
+      width: 437px;
+      margin-right: 202px;
+      font-size: 12px;
+      font-weight: 800;
+      margin-top: 30px;
+      word-spacing: 3px;
+    }
+
+    &_heading {
+      font-size: 56px;
+      font-weight: 700;
+      text-transform: capitalize;
+      line-height: 70px;
+      margin-right: 22px;
+      padding: 10px;
+    }
+
+    &_detail {
+      font-size: 18px;
+      margin-right: 166px;
+      margin-top: 32px;
+    }
+
+    &_form {
+      width: 100%;
+      margin-top: 20px;
+      @include h.flexContent;
+      &_input {
+        height: 50px;
+        width: 268px;
+        border-radius: 5px;
+        border: 0.5px solid grey;
+        font-size: 1rem;
+        text-align: center;
+      }
+      &_button {
+        height: 50px;
+        width: 173px;
+        border-radius: 5px;
+        padding: 8px 20px 12px 20px;
+        color: white;
+        background-color: #19B885;
+        border: none;
+      }
+    }
+  }
+
+
+
+
+
+}

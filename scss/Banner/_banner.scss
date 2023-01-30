@@ -1,0 +1,59 @@
+@use "../Header/header" as h;
+@use "../Article/" as a;
+
+.backgroundColor {
+  height: 1478px;
+  width: 1440px;
+  background: #f5fdff;
+}
+
+.banner {
+  @include h.flexContent;
+  margin-top: 104px;
+
+  width: 1274px;
+  margin-inline: 83px 84px;
+
+  &__contain {
+    @include h.flexContent;
+    background: #33393f;
+    color: white;
+    font-size: 0.85rem;
+    height: 304px;
+
+    &_items {
+      text-align: center;
+      padding: 10px;
+      flex: 1;
+
+      & p {
+        padding: 20px;
+      }
+    }
+  }
+
+  &--article {
+    @extend .article;
+    height: 559px;
+    width: 1120px;
+    margin-top: -100px;
+
+    &_content1 {
+      margin-top: 40px;
+    }
+
+    &_heading {
+      font-family: Poppins;
+      font-size: 36px;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 32px;
+      margin-top: 260px;
+    }
+
+    & img {
+      margin-top: 77px;
+      margin-bottom: 19px;
+    }
+  }
+}

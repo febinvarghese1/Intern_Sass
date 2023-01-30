@@ -1,0 +1,80 @@
+@use "../boilerplate" as b;
+@use "../Article/" as a;
+@use "../Banner2/" as banner;
+.darksection {
+  background-color: #33393f;
+  color: white;
+  position: relative;
+  height: 1692px;
+width: 1440px;
+
+
+  margin-top: 270px;
+
+  & h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-size: 36px;
+    line-height: 56px;
+    padding-top: 104px;
+    margin-inline:360px;
+  }
+  &--para{
+    margin-inline:209px;
+    margin-top: 32px;
+  }
+
+ 
+
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    font-size: 1rem;
+    &_items {
+      margin-top: 108px;
+      margin-inline:100px;
+      & div {
+        display: flex;
+        align-items: center;
+      }
+      & h2 {
+        font-weight: 300;
+        margin-left: 24px;
+        margin-bottom: 32px;
+      }
+
+      &__details{
+        font-size: 0.85rem;
+        margin-left: 55px;
+          width: 80%;
+        
+      }
+    }
+  }
+}
+
+.dark__banner {
+  @extend .banner2;
+  min-height: 278px;
+  width: 1274px;
+  margin-inline: 82px;
+  margin-top: 220px;
+  margin-bottom: 160px;
+
+  &_heading{
+    font-size: 28px;
+    padding-top: 40px;
+    margin-inline:205px;
+  }
+  &_inputs{
+    @extend .banner2__inputs;
+
+    & input{
+      @extend .banner2__inputs_input;
+    }
+    & button{
+      @extend .banner2__inputs_button;
+    }
+  }
+}

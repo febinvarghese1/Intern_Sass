@@ -1,0 +1,87 @@
+@use "../Header/" as h;
+
+.review {
+  @include h.flexContent(column);
+  margin-top: 320px;
+  text-align: center;
+  height: 391px;
+  width: 923px;
+  margin-inline: 258px;
+
+  & h1{
+    margin-bottom: 32px;
+  }
+
+  &__image {
+    width: 100%;
+    display: flex;
+    margin-top: 120px;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  
+}
+
+
+.comp{
+    & h1{
+        margin-top: 217px;
+        margin-inline: 307px;
+        font-size: 36px;
+    }
+    &__grid{
+
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    margin-inline: 100px;
+    height: 60vh;
+
+    &_icons {
+      @include h.flexContent;
+      justify-content: center;
+    }
+  }
+}
+
+
+  .feedback {
+    width: 949px;
+    height: 482px;
+    margin-inline: 245px 246px;
+    & h1{
+        text-align: center;
+        margin-top: 160px;
+        font-size: 36px;
+        font-weight: 900;
+    }
+    &--para {
+      margin-top: 64px;
+      font-size: 22px;
+      font-weight: lighter;
+    }
+    &__image {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 98px;
+
+      &_contain {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-evenly;
+
+        & section {
+            @include h.flexContent(column);
+            align-items: center;
+            justify-content: center;
+          & p{
+           font-size: 12px;
+           text-align: center;
+           margin-top: 21px; 
+          }
+        }
+      }
+    }
+  }
